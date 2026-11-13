@@ -8,9 +8,16 @@ function Ibadi() {
       {/* HERO */}
       <section className="initiative-hero ibadi-hero">
         <div className="initiative-hero-content">
-          <span className="initiative-eyebrow">
-            NUTAKOR M&C FOUNDATION / iBADI LEARNING CENTRE
-          </span>
+          <div className="ibadi-brand">
+            <img
+              className="ibadi-brand-logo"
+              src="/assets/ibadi-learning-centre-logo.jpeg"
+              alt="iBADI Learning Centre logo"
+            />
+            <span className="initiative-eyebrow">
+              NUTAKOR M&C FOUNDATION / iBADI LEARNING CENTRE
+            </span>
+          </div>
 
           <h1>
             Learning today.

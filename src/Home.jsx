@@ -183,7 +183,16 @@ function Home() {
                 {initiative.color === 'orange' && '✺'}
               </div>
 
-              <h3>{initiative.name}</h3>
+              <h3 className={initiative.color === 'blue' ? 'initiative-title initiative-title-with-logo' : 'initiative-title'}>
+                {initiative.color === 'blue' && (
+                  <img
+                    className="initiative-logo"
+                    src="/assets/ibadi-learning-centre-logo.jpeg"
+                    alt="iBADI Learning Centre logo"
+                  />
+                )}
+                <span>{initiative.name}</span>
+              </h3>
 
               <p>{initiative.description}</p>
 
